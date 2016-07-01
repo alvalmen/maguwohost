@@ -95,10 +95,140 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
+   
+ main {
+	 margin: 0 auto;
+	 max-width: 1400px;
+	 min-width: 400px;
+ }
+ footer {
+	 max-width: 1400px;
+	 min-width: 400px;
+	 background: #363855 url(../img/footer-fon.png) no-repeat center top;
+	 border-top: 1px solid transparent;
+	 border-bottom: 1px solid transparent;
+	 box-shadow: 0 5px 3px 0 #808080;
+	 margin-bottom: 5px;
+ }
+ .footer-wrapper {
+	 margin: 0 auto;
+	 max-width: 1170px;
+	 
+ }
+ .footer-left {
+	 display: inline-block;
+	 width: 1000px;
+	 padding-top: 315px;
+	 margin-right: 20px;
+ }
+ .footer-right {
+	 display: inline-block;
+	 text-align: right;
+	 vertical-align: top;
+	 padding-top: 130px;
+	 
+	 
+ }
+ .address {
+	 position: relative;
+	 width: 200px;
+	 margin-left: 620px;
+	 color: #ffffff;
+	 padding-left: 50px;
+	 font-family: "Raleway";
+	 font-size: 18px;
+	 line-height: 24px;
+	 margin-bottom: 120px;
+ }
+ .address::before {
+	position: absolute;
+	content: url(../img/drop.svg);
+	height: 50px;
+	left: 0;
+	top: 0;
+}
+.copyright {
+	margin-left: 430px;
+	width: 320px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: "Raleway";
+	font-size: 14px;
+    line-height: 24px;
+	padding-top: 45px;
+	margin-bottom: 65px;
+}
+.copyright::before {
+	position: absolute;
+	top: 0;
+	left: 45%;
+	content: url(../img/badge-min.svg);
+}
+.footer-nav-title {
+	color: white;
+	font-family: "Raleway";
+	font-size: 18px;
+	line-height: 36px;
+	text-align: right;
+}
+.footer-nav {
+	list-style: none;
+	padding-right: 0;
+	margin-bottom: 20px;
+	font-size: 0px;
+}
+.footer-nav-item {
+	border-bottom: 1px solid #565870;
+	padding: 0;
+}
+.footer-nav .footer-nav-link {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-family: "Raleway";
+	font-size: 16px;
+    line-height: 36px;
+	padding-right: 0;
+	text-align: right;
+	
+}
+.footer-nav-item:last-child {
+	border-bottom: none;
+}
+.footer-social {
+	margin-bottom: 35px;
+}
+.footer-social-item {
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-social .footer-social-link {
+	display: block;
+	width: 20px;
+	height: 20px;
+	
+	margin-left: 10px;
+}
+.footer-social .fb {
+	background-image: url(../img/sprite.png);
+	background-position: 0 0;
+}
+.footer-social .tw {
+	background-image: url(../img/sprite.png);
+	background-position: -35px 0;
+}
+.footer-social .gl {
+	background-image: url(../img/sprite.png);
+	background-position: -70px 0;
+}
+.footer-back-top {
+	text-decoration: none;
+	color: white;
+	font-family: "Raleway";
+	font-size: 12px;
+    line-height: 36px;
+}
 
 
 
